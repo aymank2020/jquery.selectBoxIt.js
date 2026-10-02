@@ -24,7 +24,6 @@
     }
   ],
   "devDependencies": {
-    "express": "3.x",
     "grunt": "~0.4.1",
     "grunt-contrib-concat": "~0.2.0",
     "grunt-contrib-uglify": "~0.2.0",
@@ -33,7 +32,9 @@
   },
   "main": "src/javascripts/jquery.selectBoxIt.js",
   "scripts": {
-    "test": "grunt travis --verbose"
+    "start": "node server.js",
+    "test": "node test/server.test.js",
+    "test:legacy": "grunt travis --verbose"
   },
   "keywords": ["jQuery", "jQueryUI", "Select Box Plugin", "Twitter Bootstrap", "Twitter Bootstrap Select Box"]
 }
