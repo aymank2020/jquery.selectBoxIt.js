@@ -1,6 +1,15 @@
 jquery.selectBoxIt.js - jQuery Select Box Plugin
 ------------------------------------------------
 
+### Local review and tests
+
+Run `npm start` with Node.js and open
+`http://127.0.0.1:8081/test/SpecRunner.html` for the bundled browser tests.
+The local server and `npm test` HTTP checks use Node built-ins and need no
+dependency installation. `npm run test:legacy` retains the historical Grunt
+test command and requires its old dependencies. See
+[the review and development plan](DEVELOPMENT_REVIEW_AR.md).
+
 *Note:* I haven't had time to maintain this repository for the last few years, so if anyone would like a particular fix just send me a tip via Paypal (gfranko5@yahoo.com) and I'll look into it
 
 [![Build Status](https://travis-ci.org/gfranko/jquery.selectBoxIt.js.png?branch=master)](https://travis-ci.org/gfranko/jquery.selectBoxIt.js)
